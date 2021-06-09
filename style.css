@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#mast {
+  width: 100%;
+  background-color: #ddd;
+  height: 50px;
+  margin-top: 20px;
+  position: fixed;
+}
+.container {
+  max-width: 1040px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+.section {
+  border: 1px solid #ddd;
+  min-height: 500px;
+}
+#nav {
+  float: right;
+  margin-top: 10px;
+  width: 600px;
+}
+#nav ul {
+  list-style: none;
+  margin: 0 auto;
+  display: block;
+}
+#nav li {
+  float: left;
+  padding: 10px;
+  margin: 2px;
+  background-color: black;
+}
+#nav li a {
+  text-decoration: none;
+  font-size: 1em;
+  color: white;
+}
+#nav li a.active {
+  border-bottom: 3px solid yellow;
+  color: yellow;
+}
+#nav li a:hover {
+  color: red;
+}
+.clear {
+  clear: both;
+}
+.wrap {
+  background-color: rgb(200, 200.2);
+  background-color: rgba(200, 200, 200, 0.5);
+  border-radius: 20px;
+  padding: 30px;
+  margin: 40px auto;
+  width: 70%;
+}
+#section1 .wrap {
+  margin-top: 90px;
+}
+#section1 {
+  background: url("http://via.placeholder.com/1200x800/EE33CC/0033333?text=Section1: Home");
+}
+#section2 {
+  background: url("http://via.placeholder.com/1200x800/EE33CC/FFFF33?text=Section2: Add Articles");
+}
+#section3 {
+  background: url("http://via.placeholder.com/1200x800/EE33CC/0033333?text=Section3: Articles");
+}
+#section4 {
+  background: url("http://via.placeholder.com/1200x800/EE33CC/0033333?text=Section4: About Us");
+}
+#footer {
+  background-color: #333;
+  color: white;
+}
+.col-1 {
+  width: 66%;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.col-2 {
+  width: 33%;
+  display: inline-block;
+}
+.myClass {
+  color: coral;
+  background-color: #ddd;
+}
